@@ -1,0 +1,360 @@
+body {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    display: inherit;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 90%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+#jumbo {
+    position: relative;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(4px);
+    filter: blur(4.4px);
+    min-width: 100%;
+}
+
+.jumbotext {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 8vh;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #006400;
+}
+
+.jumbotext div {
+    height: 90vh;
+}
+
+.jumbotext h1 {
+    font-size: 16vh;
+    font-weight: strong;
+}
+
+.jumbotext p,
+.jumbotext h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.jumbotext p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding-bottom: 10px;
+    font-size: 8vh;
+}
+
+.info {
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    font-size: 1.4em;
+}
+
+.third {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    padding: 5%;
+}
+
+#nonprofit p,
+#connect p,
+#portfolio p {
+    position: relative;
+    bottom: 0px;
+    font-size: 1.4em;
+}
+
+#nonprofit img,
+#connect img,
+#portfolio img {}
+
+#blurb img {
+    width: 100%;
+    display: block;
+}
+
+#blurb i {
+    width: 100%;
+    display: block;
+    font-size: 8em;
+}
+
+.flexible {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+#tech li {
+    font-size: 2em;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px;
+}
+
+#tech i {
+    font-size: 2.5em;
+}
+
+#tech h3 {
+    font-size: 2.5em;
+}
+
+#more {
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#more h3 {
+    font-size: 2em;
+    padding: 100px;
+}
+
+#more p {
+    font-size: 1.5em;
+}
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: right;
+    height: 5%;
+    padding-right: 15px;
+    z-index: 999;
+}
+
+header a {
+    align-items: center;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    /*
+    padding: 16px 16px;*/
+    text-decoration: none;
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+header a:visited {
+    color: #f2f2f2;
+}
+
+header i {
+    justify-content: center;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 10px;
+    ]
+}
+
+.cta {
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: static;
+    font-size: 3em;
+    color: #fff;
+    width: 33%;
+    line-height: 80px;
+    background-color: #006400;
+    /*
+    margin-left: 33.52%;*/
+}
+
+.cta a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cta a:hover {
+    color: #426642;
+}
+
+#subjumbo {
+    position: relative;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(4px);
+    filter: blur(4.4px);
+    /*
+    max-width: 100%;*/
+    min-width: 100%;
+}
+
+.subjumbo {
+    position: relative;
+    /*
+    top: 20px;*/
+    width: 100%;
+    height: 60vh;
+    padding-bottom: 8vh;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #006400;
+}
+
+.subjumbo div {
+    height: 90vh;
+}
+
+.subjumbo h1 {
+    /*
+    margin-top: 5%;*/
+    font-size: 16vh;
+    font-weight: strong;
+    /*   font-size: 6em;*/
+}
+
+.subjumbo p,
+.subjumbo h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.subjumbo p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding-bottom: 10px;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.filler img {
+    height: 60vh;
+}
+
+.filler {
+    max-width: 90%;
+    padding-left: 5%;
+}
+
+.bigrow {
+    display: flex;
+    /*justify-content: flex-start;*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    padding-left: 16.5%;
+}
+
+.joinlist {
+    font-size: 2em;
+    color: #006400;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.joinlist a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+    color: #006400;
+}
+
+.twothird {
+    font-size: 1em;
+    flex-basis: 66%;
+}
+
+.nums {
+    /* flex-basis: 33%;*/
+}
+
+#techtable {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#techtable table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+}
+
+#techtable table th,
+table td {
+    border: 1px solid #000;
+    /*
+    width: 200px; //or something similar */
+    padding: 20px;
+    font-weight: bold;
+}
+
+#techtable table td.wideRow,
+table th.wideRow {
+    /* width: 300px;*/
+}
+
+#techtable tr td:first-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+#techtable i {
+    font-size: 5em;
+    X
+}
+
+#techtable table th {
+    padding: 0px;
+}
+
+#techtable table th h3 {
+    font-size: 24pt;
+}

@@ -1,0 +1,208 @@
+body {
+    /*
+    text-align: center;
+    
+    margin: auto;*/
+    position: relative;
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    max-width: 100% !important;
+    width: 100%;
+    padding-right: 0;
+    overflow-x: hidden !important;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    position: relative;
+    display: inline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#jumbo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 0px;
+    -webkit-filter: blur(4px);
+    filter: blur(4.4px);
+    max-width: 100%;
+}
+
+.jumbotron {
+    text-align: center;
+    color: #cfcfcf;
+    position: relative;
+    /*top: 20px;*/
+    max-width: 100%;
+    width: 100% !important;
+    height: 60vh;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.jumbotron h1 {
+    font-size: 8vw;
+    /*font-size: 6em;*/
+}
+
+.jumbotron p {
+    position: relative;
+    color: #fff;
+    font-size: 3vw;
+    /*font-size: 3em;*/
+}
+
+.jumbotron h1 {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #006400;
+    z-index: 100;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/*.jumbotext a {
+    position: inherit;
+    margin-top: 90%;
+}*/
+
+.info {
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    font-size: 1.4em;
+}
+
+.third {
+    float: left;
+    width: 31%;
+    margin: 1% 1% 45px 1%;
+}
+
+#nonprofit p,
+#connect p,
+#portfolio p {
+    position: relative;
+    bottom: 0px;
+    font-size: 1.4em;
+}
+
+#blurb img {
+    width: 100%;
+    display: block;
+}
+
+#blurb i {
+    width: 100%;
+    display: block;
+    font-size: 8em;
+}
+
+.cta {
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: relative;
+    font-size: 3em;
+    color: #fff;
+    width: 33%;
+    line-height: 80px;
+    background-color: #006400;
+    margin-left: 33.52%;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/*  Commented out in favor of flexbox for container.  Leaving in case changed back.  Flex is awesome
+#tech {
+  width: 80%;
+  margin-left: 10%;
+}
+*/
+
+.flexible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#tech li {
+    font-size: 2em;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px;
+}
+
+#tech i {
+    font-size: 2.5em;
+}
+
+#tech h3 {
+    font-size: 2.5em;
+}
+
+#more {
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#more h3 {
+    font-size: 2em;
+    padding: 100px;
+}
+
+#more p {
+    font-size: 1.5em;
+}
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header {
+    width: 100%;
+    display: inline-block;
+    background-color: #333;
+    position: static;
+    left: 0;
+    top: 0;
+    text-align: right;
+    height: 30px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding: 10px;
+}
+
+header a {
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+    overflow: hidden;
+    padding-top: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Learn to code in a free online bootcamp. Become a full stack web developer right in Kenosha, WI">
+    <title>Free Code Camp - Kenosha: About Us</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/ad24993dd1.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu+Mono" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <p id="name"><i class="fa fa-free-code-camp" aria-hidden="true"></i> Free Code Camp Kenosha</p>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="technologies.html">Technologies</a>
+        <a href="meetup.html">Meet Ups</a>
+        <a href="members.html">Members</a>
+        <a href="gear.html">Gear</a>
+        <a href="join.html">JOIN</a>
+    </header>
+
+
+    <div class="subjumbo">
+        <h1>Free Code Camp Kenosha</h1>
+        <p>Some peoiple just want to watch the world learn</p>
+        <img id="subjumbo" src="join.jpg" alt="join freecodecamp Kenosha, WI">
+
+    </div>
+    <div class="cta">
+        <a href="join.html">Join Now</a>
+    </div>
+    </a>
+    <div id="about">
+        <p>We're a group of people in South Eastern Wisconsin looking to better our future by learning to code.<br><br>Some of us are students attending local colleges, others are mid career professionals looking to change careers, some just like to build
+            things and want to do it with code. As long as you are looking to learn how to code free code camp kenosha is the place for you. You'll develop real world applications in a self paced, online enviroment. You'll learn front end, back end, and
+            project management, all of the tools you need to be a web developer. To graduate you'll build a real production level web app to be used to a member non profit in their day to day operations.<br><br>We want you to help you learn.</p>
+
+    </div>
+
+    <div class="cta">
+        <a href="join.html">Join Now</a>
+    </div>
+    <div id="video">
+        <h3>Is it worth it?</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O-h4i1ErDD4?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="cta">
+        <a href="join.html">Join Now</a>
+    </div>
+    <div id="contact">
+        <center>
+            <form action="http://www.formbuddy.com/cgi-bin/form.pl" onsubmit="return checkEmail();" method="post">
+                <input type="hidden" name="username" value="mbrothen">
+                <input type="hidden" name="reqd" value="0">
+                <input type="hidden" name="url" value="http://http://apollo.gtc.edu/~mbrothen/FCC_Kenosha/success.html">
+
+
+                <table>
+                    <tr>
+                        <td align="right"><b>Name:</b>
+                            <td><input type="text" name="visitor_name" size="36" maxlength="100">
+                    </tr>
+                    <tr>
+                        <td align="right"><b>E-Mail:</b>
+                            <td><input type="text" name="e-mail" size="36" maxlength="100" id="txtEmail">
+                    </tr>
+                </table>
+
+
+                <p><b>Questions?</b>
+                    <br><textarea name="comments" rows="5" cols="36">
+                </textarea>
+                    <p>
+                        <input type="submit" value="Submit Form" id="submit"><input type="reset" value="Reset Form">
+
+            </form>
+        </center>
+    </div>
+    <script language="javascript">
+        function checkEmail() {
+
+            var email = document.getElementById('txtEmail');
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+            if (!filter.test(email.value)) {
+                alert('Please provide a valid email address');
+                email.focus;
+                return false;
+            }
+        }
+    </script>
+    <div class="" class="flexible" id="more">
+        <!--Future Links to other pages here -->
+        <h3>Find out more</h3>
+        <a href="technologies.html">
+            <p>Technologies</p>
+        </a>
+        <a href="meetup.html">
+            <p>Meetups</p>
+        </a>
+        <a href="members.html">
+            <p>Members</p>
+        </a>
+        <a href="join.html">
+            <p>Join</p>
+        </a>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy;2017 Free Code Camp Kenosha</p><br>
+            <p><a href="mailto:mbrothen@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+            </a> <a href="https://twitter.com/FCC_Kenosha"><i class="fa fa-twitter" aria-hidden="true"></i>
+            </a> <a href="https://www.facebook.com/groups/free.code.camp.kenosha/"><i class="fa fa-facebook" aria-hidden="true"></i>
+            </a></p>
+
+
+        </div>
+    </footer>
+</body>
+
+</html>

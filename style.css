@@ -1,177 +1,747 @@
-body {
-  text-align: center;
-  margin: auto;
-  position: relative;
-  display: inherit;
-  margin-top: 30px;
-  font-family: 'Lato', sans-serif;
-}
-
-.container {
-  width: 90%;
-  padding-top: 500px;
-  padding-bottom: 500px;
-  position: relative;
-  display: inline;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#jumbo {
-  position: relative;
-  height: 90vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-filter: blur(4px);
-  filter: blur(4.4px);
-  max-width: 100%;
-}
-
-.jumbotext {
-  color: #cfcfcf;
-}
-
-.jumbotext {
-  position: relative;
-  top: 20px;
-  width: 100%;
-  height: 90vh;
-  padding-bottom: 100px;
-  font-family: 'Ubuntu Mono', monospace;
-}
-
-.jumbotext h1 {
-  margin-top: 5%;
-  font-size: 6em;
-}
-
-.jumbotext p {
-  color: #fff;
-  margin-top: 30%;
-  font-size: 3em;
-}
-
-.jumbotext p, .jumbotext h1 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  z-index: 100;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.jumbotext a {
-  position: inherit;
-  margin-top: 90%;
-}
-
-.info {
-  text-align: center;
-  width: 80%;
-  padding-left: 10%;
-  font-size: 1.4em;
-}
-
-.third {
-  float: left;
-  width: 31%;
-  margin: 1% 1% 45px 1%;
-}
-
-#nonprofit p, #connect p, #portfolio p {
-  position: relative;
-  bottom: 0px;
-  font-size: 1.4em;
-}
-
-#blurb img {
-  width: 100%;
-  display: block;
-}
-
-#blurb i {
-  width: 100%;
-  display: block;
-  font-size: 8em;
-}
-
-#tech {
-  width: 80%;
-  margin-left: 10%;
-}
-
-#tech li {
-  font-size: 2em;
-  text-decoration: none;
-  list-style-type: none;
-  display: inline-block;
-  padding: 50px;
-}
-
-#tech i {
-  font-size: 2.5em;
-}
-
-#tech h3 {
-  font-size: 2.5em;
-}
-
-#more {
-  height: 500px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-#more h3 {
-  font-size: 2em;
-  padding: 100px;
-}
-
-#more p {
-  font-size: 1.5em;
-}
-
-footer {
-  position: relativ, jkn cv, .vbte;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-  margin-top: 50px;
-}
-
-header {
-  width: 100%;
-  display: inline-block;
-  background-color: #333;
-  position: fixed;
-  left: 0;
-  top: 0;
-  text-align: right;
-  height: 30px;
-  padding: 10px;
-}
-
-/*
-header.floating {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #333;
-}
-*/
-
-header a {
-  display: inline;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  background-color: #333;
-  overflow: hidden;
-  padding-top: 0;
-  margin-top: 0;
-  margin-right: 20px;
-}
+    body {
+        text-align: center;
+        margin: auto;
+        position: relative;
+        display: inherit;
+        margin-top: 30px;
+        font-family: 'Lato', sans-serif;
+        max-width: 100%;
+    }
+    
+    .container {
+        width: 90%;
+        height: 400px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    
+    #jumbo {
+        position: relative;
+        height: 90vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-filter: blur(4px);
+        filter: blur(4.4px);
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    .jumbotext {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        padding-bottom: 8vh;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #006400;
+    }
+    
+    .jumbotext div {
+        height: 90vh;
+    }
+    
+    .jumbotext h1 {
+        font-size: 16vh;
+        font-weight: strong;
+        width: 100%;
+    }
+    
+    .jumbotext p,
+    .jumbotext h1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+    
+    .jumbotext p {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding-bottom: 10px;
+        font-size: 8vh;
+    }
+    
+    .info {
+        text-align: center;
+        width: 80%;
+        padding-left: 10%;
+        font-size: 1.4em;
+    }
+    
+    .third {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: stretch;
+        padding: 5%;
+    }
+    
+    #nonprofit p,
+    #connect p,
+    #portfolio p {
+        position: relative;
+        bottom: 0px;
+        font-size: 1.4em;
+    }
+    
+    #blurb img {
+        width: 100%;
+        display: block;
+    }
+    
+    #blurb i {
+        width: 100%;
+        display: block;
+        font-size: 8em;
+    }
+    
+    .flexible {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+    
+    #tech li {
+        font-size: 2em;
+        text-decoration: none;
+        list-style-type: none;
+        display: inline-block;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    #tech i {
+        font-size: 2.5em;
+    }
+    
+    #tech h3 {
+        font-size: 2.5em;
+    }
+    
+    #more {
+        height: 500px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 80%;
+        padding-left: 10%;
+    }
+    
+    #more h3 {
+        font-size: 2em;
+        padding: 100px;
+    }
+    
+    #more p {
+        font-size: 1.5em;
+        display: inline-flex;
+        flex-basis: row;
+        flex-grow: 1;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #more p {
+        color: #000;
+    }
+    
+    #more a {
+        color: #000;
+    }
+    
+    #more a:visited {
+        color: #000;
+    }
+    
+    footer {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: #efefef;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    footer a {
+        font-size: 2em;
+        padding: 30px;
+        text-decoration: none;
+        color: #006400;
+    }
+    
+    footer a:hover {
+        color: #426642;
+    }
+    
+    header {
+        width: 100%;
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #333;
+        position: fixed;
+        left: 0;
+        top: 0;
+        text-align: right;
+        height: 5%;
+        max-width: 100%;
+        z-index: 999;
+    }
+    
+    header a {
+        align-items: center;
+        display: inline;
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: none;
+        overflow: hidden;
+        padding-top: 0;
+        margin-right: 20px;
+    }
+    
+    header a:visited {
+        color: #f2f2f2;
+    }
+    
+    header i {
+        justify-content: center;
+        /*
+    margin-right: auto;*/
+        color: #FFFFFF;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    
+    #name {
+        font-family: 'Ubuntu Mono', monospace;
+        margin-right: auto;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .cta {
+        text-align: center;
+        border: none;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        display: block;
+        position: static;
+        font-size: 3em;
+        color: #fff;
+        width: 33%;
+        line-height: 80px;
+        background-color: #006400;
+        margin-left: 33.5%;
+    }
+    
+    .cta a {
+        text-decoration: none;
+        display: inline-block;
+        color: #FFF;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    
+    .cta a:hover {
+        background-color: #426642;
+    }
+    
+    .cta a:visited {
+        color: #fff;
+    }
+    
+    #subjumbo {
+        position: relative;
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-filter: blur(4px);
+        filter: blur(4.4px);
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
+    .subjumbo {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        padding-bottom: 8vh;
+        font-family: 'Ubuntu Mono', monospace;
+        color: #006400;
+    }
+    
+    .subjumbo div {
+        height: 90vh;
+    }
+    
+    .subjumbo h1 {
+        font-size: 16vh;
+        font-weight: strong;
+    }
+    
+    .subjumbo p,
+    .subjumbo h1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+    
+    .subjumbo p {
+        width: 80%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding-bottom: 10px;
+        font-size: 8vh;
+        font-weight: bold;
+    }
+    
+    .filler img {
+        /*
+    height: 60vh;*/
+        height: auto;
+    }
+    
+    .filler {
+        max-width: 80%;
+        padding-left: 10%;
+    }
+    
+    .bigrow {
+        display: flex;
+        /*justify-content: flex-start;*/
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 66%;
+        padding-left: 16.5%;
+    }
+    
+    .joinlist {
+        font-size: 2em;
+        color: #006400;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    .joinlist a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #006400;
+    }
+    
+    .joinlist a:hover {
+        color: #426642;
+    }
+    
+    .twothird {
+        font-size: 1em;
+        flex-basis: 66%;
+    }
+    
+    #techtable {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    #techtable table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #techtable table th,
+    table td {
+        border: 1px solid #000;
+        /*
+    width: 200px; //or something similar */
+        padding: 20px;
+        font-weight: bold;
+    }
+    
+    #techtable tr td:first-child {
+        width: 1%;
+        white-space: nowrap;
+    }
+    
+    #techtable i {
+        font-size: 5em;
+    }
+    
+    #techtable table th {
+        padding: 0px;
+    }
+    
+    #techtable table th h3 {
+        font-size: 24pt;
+    }
+    
+    #about {
+        max-width: 100%;
+        width: 90%;
+        padding-left: 5%;
+        font-size: 1.5em;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #video {
+        font-size: 2em;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #video h3 {
+        font-size: 2em;
+    }
+    
+    #contact table {
+        border-collapse: collapse;
+    }
+    
+    #contact td,
+    #contact tr {
+        padding: 0;
+    }
+    
+    #contact {
+        margin-top: 50px;
+    }
+    
+    .members {
+        border-radius: 50%;
+    }
+    
+    #team ul {
+        font-size: 2em;
+        text-decoration: none;
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #team li {
+        width: 30%;
+    }
+    
+    #team h3 {
+        font-size: 2.5em;
+    }
+    
+    #cart {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    @media (max-width: 1025px) {
+        body {
+            margin-top: 0px;
+        }
+        .jumbotron {
+            width: 100%;
+            height: 75vh;
+        }
+        .jumbotext {
+            height: 50vh;
+        }
+        .jumbotext h1 {
+            width: 100%;
+            font-size: 5em;
+        }
+        .jumbotext p {
+            width: 100%;
+            font-size: 3em;
+            padding-bottom: 25px;
+        }
+        #jumbo {
+            height: 50vh;
+        }
+        .subjumbo {
+            width: 100%;
+            display: block;
+        }
+        .subjumbo h1 {
+            width: 100%;
+            font-size: 5em;
+        }
+        .subjumbo p {
+            width: 100%;
+            font-size: 2.5em;
+            /*
+        margin-bottom: 50px;*/
+            padding-bottom: 80px;
+        }
+        header {
+            text-align: left;
+        }
+        header i {
+            justify-content: left;
+            padding-left: 1px;
+        }
+        header a {
+            margin-right: 10px;
+        }
+    }
+    
+    @media (max-width:801px) {
+        /*tablet and small screen formatting*/
+        .jumbotron {
+            width: 100%;
+            height: 75vh;
+        }
+        .jumbotext {
+            height: 50vh;
+        }
+        .jumbotext h1 {
+            width: 100%;
+            font-size: 5em;
+        }
+        .jumbotext p {
+            width: 100%;
+            font-size: 2.5em;
+        }
+        #jumbo {
+            height: 50vh;
+        }
+        .subjumbo {
+            width: 100%;
+        }
+        .subjumbo h1 {
+            width: 100%;
+            font-size: 5em;
+        }
+        .subjumbo p {
+            width: 100%;
+            font-size: 2.5em;
+            /*
+        margin-bottom: 50px;*/
+            padding-bottom: 50px;
+        }
+        .filler {
+            padding-bottom: 25px;
+        }
+        #team {
+            width: 100%;
+        }
+        #team ul {
+            width: 100%;
+            padding-left: 0;
+        }
+        #team li {
+            width: 100%;
+        }
+        header {
+            text-align: left;
+        }
+        header i {
+            justify-content: left;
+            padding-left: 1px;
+        }
+        header a {
+            margin-right: 10px;
+        }
+        .container {
+            margin-left: 0;
+            width: 100%;
+        }
+        #more p {
+            text-decoration: underline;
+        }
+    }
+    
+    @media (max-width: 750px) {
+        .cta {
+            width: 80%;
+            margin-left: 10%;
+        }
+        header {
+            width: 100%;
+            display: inline-flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #333;
+            position: static;
+            left: 0;
+            top: 0;
+            text-align: center;
+            height: auto;
+            max-width: 100%;
+            z-index: 999;
+            padding-bottom: 10px;
+        }
+        header a {
+            flex-grow: 1;
+            align-items: center;
+            display: inline;
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            overflow: hidden;
+            padding-top: 0;
+            margin-right: 10px;
+        }
+        header a:visited {
+            color: #f2f2f2;
+        }
+        header i {
+            justify-content: left;
+            font-size: 20px;
+            padding-left: 1px;
+        }
+        #name {
+            font-family: 'Ubuntu Mono', monospace;
+            margin-right: auto;
+            color: #fff;
+            font-size: 20px;
+            width: 100%;
+        }
+        body {
+            margin-top: 0px;
+            max-width: 100%;
+            min-width: 100%;
+        }
+    }
+    
+    @media (max-width:480px) {
+        /* smartphones, Android phones, landscape iPhone */
+        .jumbotext h1 {
+            margin-top: 10px;
+            width: 100%;
+            font-size: 4em;
+        }
+        .jumbotext p {
+            margin-bottom: 70px;
+            width: 100%;
+            font-size: 2em;
+        }
+        .subjumbo h1 {
+            width: 100%;
+            font-size: 4em;
+        }
+        .subjumbo p {
+            width: 100%;
+            font-size: 2em;
+            /*
+        margin-bottom: 50px;*/
+            padding-bottom: 50px;
+        }
+        .cta {
+            width: 80%;
+            margin-left: 10%;
+        }
+        #tech {
+            width: 100%;
+        }
+        #tech ul {
+            width: 100%;
+            padding-left: 1%;
+        }
+        #tech li {
+            font-size: 1.5em;
+            text-decoration: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px;
+            text-align: center;
+        }
+        .flexible {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 1%;
+            padding-right: 1%;
+            width: 98%;
+        }
+        #video iframe {
+            width: 100vw;
+            height: auto;
+        }
+        header {
+            width: 100%;
+            display: inline-flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #333;
+            position: static;
+            left: 0;
+            top: 0;
+            text-align: center;
+            height: auto;
+            max-width: 100%;
+            z-index: 999;
+            padding-bottom: 10px;
+        }
+        header a {
+            flex-grow: 1;
+            align-items: center;
+            display: inline;
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            overflow: hidden;
+            padding-top: 0;
+            margin-right: 10px;
+        }
+        header a:visited {
+            color: #f2f2f2;
+        }
+        header i {
+            justify-content: left;
+            font-size: 20px;
+            padding-left: 1px;
+        }
+        #name {
+            font-family: 'Ubuntu Mono', monospace;
+            margin-right: auto;
+            color: #fff;
+            font-size: 20px;
+            width: 100%;
+        }
+        body {
+            margin-top: 0px;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        .joinlist {
+            width: 100%;
+            padding-left: 0;
+        }
+        .bigrow {
+            display: flex;
+            /*justify-content: flex-start;*/
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding-left: 0;
+        }
+        .twothird {
+            font-size: 1em;
+            flex-basis: auto;
+            width: 100%;
+        }
+        #cart img {
+            width: 100%;
+            height: auto;
+        }
+    }
